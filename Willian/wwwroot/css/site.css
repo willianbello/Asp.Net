@@ -1,0 +1,89 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+/*----------------------------------------
+    Importando fonts
+-----------------------------------------*/
+
+/*
+font-family: 'Merriweather', serif;
+font-family: 'Playfair Display SC', serif;
+font-family: 'Merienda', cursive;
+font-family: 'Prata', serif;
+*/
+
+/*--------------------------------------
+    Estilo Pagina
+---------------------------------------*/
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    font-size: 16px;
+    overflow-x: hidden;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 18px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+    font-family: 'Merriweather', serif;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+}
+
+
+/*------------------------------------------------------
+    Menu Topo
+-------------------------------------------------------*/
+.w-menu-lateral-fixo{ display:block; position: fixed; left: 0; top: 0; bottom: 0; }
+.w-menu-topo-fixo a {
+    color: white;
+    transition: 0.8s
+}
+.w-menu-topo-fixo a:hover { color: #CC8D09 }
+.w-ls-none { list-style: none }
+
+.w-margin-conteudo{
+    margin-top: 76px;
+}
+
+/* Logo site */
+.w-caixa-logo {
+    border: 1px solid #6976CC;
+    width: 100%
+}
+.w-logo-site {
+    height: 50px;
+}
+

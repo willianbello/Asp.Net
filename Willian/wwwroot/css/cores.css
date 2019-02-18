@@ -1,0 +1,47 @@
+﻿/* Cores de fundo com tom Azul */
+
+.w-bg-azul-1 {
+    background-color: #6976CC;
+}
+
+.w-bg-azul-2 {
+    background-color: #48518C;
+}
+
+.w-bg-azul-3 {
+    background-color: #212540;
+    opacity: 1;
+}
+
+.w-bg-azul-4 {
+    background-color: #282C4D;
+}
+
+.w-bg-azul-5 {
+    background-color: #1A1D33;
+}
+
+/* Cores de fonte */
+.w-cf-white{
+    color:white
+}
+
+.w-cf-white a {
+    color: white
+}
+
+.w-cf-orange-2 {
+    color: #CC8D09;
+}
+
+.w-cf-orange-3 {
+    color: #D9960A;
+}
+
+.w-cf-orange-4 {
+    color: #CC8D09;
+}
+
+.w-cf-orange-5 {
+    color: #B27B08;
+}
