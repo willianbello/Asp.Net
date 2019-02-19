@@ -12078,11 +12078,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Will\\Documents\\workspace\\Pessoal\\SolucaoSite2\\Willian\\Willian.csproj",
+      "projectUniqueName": "C:\\Users\\Will\\Documents\\workspace\\Pessoal\\SolucaoSite2\\Asp.Net\\Willian\\Willian.csproj",
       "projectName": "Willian",
-      "projectPath": "C:\\Users\\Will\\Documents\\workspace\\Pessoal\\SolucaoSite2\\Willian\\Willian.csproj",
+      "projectPath": "C:\\Users\\Will\\Documents\\workspace\\Pessoal\\SolucaoSite2\\Asp.Net\\Willian\\Willian.csproj",
       "packagesPath": "C:\\Users\\Will\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Will\\Documents\\workspace\\Pessoal\\SolucaoSite2\\Willian\\obj\\",
+      "outputPath": "C:\\Users\\Will\\Documents\\workspace\\Pessoal\\SolucaoSite2\\Asp.Net\\Willian\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

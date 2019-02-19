@@ -1,7 +1,11 @@
 ﻿
 .w-borda-img {
-    border: 15px solid #48518C;
+    border: 10px solid #48518C;
 }
+.w-figura{
+    position:relative;
+}
+
 .w-fs-40{ font-size: 40px; }
 .w-fs-20{ font-size: 20px; }
 
