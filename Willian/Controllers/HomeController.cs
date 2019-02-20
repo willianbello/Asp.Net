@@ -15,7 +15,17 @@ namespace Willian.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Sobre()
+        {
+            return View();
+        }
+
+        public IActionResult Portifolio()
+        {
+            return View();
+        }
+
+        public IActionResult Contato()
         {
             return View();
         }

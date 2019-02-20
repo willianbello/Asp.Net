@@ -18,37 +18,39 @@
     </environment>
     <link rel="stylesheet" href="~/css/site.css" />
     <link rel="stylesheet" href="~/css/cores.css" />
+    <link rel="stylesheet" href="~/css/home.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <link href="https://fonts.googleapis.com/css?family=Merienda|Merriweather|Playfair+Display+SC|Prata" rel="stylesheet">
 </head>
 <body>
-    <header class=" w-bg-azul-3 fixed-top">
+    <header class=" w-bg-azul-3 fixed-top w-altura-menu">
         <div class="container">
-            <nav class="navbar navbar-expand-lg">
-                <a class="navbar-brand" href="#"><img src="~/imagens/logo2.png" class="img-fluid w-logo-site"/></a>
+            <nav class="navbar navbar-expand-lg mt-auto mb-auto">
+                <a class="navbar-brand" asp-action="Index"><img src="~/imagens/logo2.png" class="img-fluid w-logo-site"/></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ml-auto w-menu-topo-fixo">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
-                        </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">SOBRE</a>
+                            <a class="nav-link" asp-action="Index">HOME <span class="sr-only">(current)</span></a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">PORTIFÓLIO</a>
+                        <li class="nav-item ml-2">
+                            <a class="nav-link" asp-action="Sobre">SOBRE</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">CONTATO</a>
+                        <li class="nav-item ml-2">
+                            <a class="nav-link" asp-action="Portifolio">PORTIFÓLIO</a>
+                        </li>
+                        <li class="nav-item ml-2">
+                            <a class="nav-link" asp-action="Contato">CONTATO</a>
                         </li>
                     </ul>
                 </div>
             </nav>
         </div>
     </header>
-
-    <div class="w-margin-conteudo"> 
+    <div class="w-altura-menu"></div>
+    <div> 
         <partial name="_CookieConsentPartial" />
         <main role="main">
             @RenderBody()
@@ -56,9 +58,9 @@
     </div>
     
 
-    <footer class="border-top footer text-muted">
+    <footer class="border-top footer w-cf-white w-bg-azul-3">
         <div class="container text-center">
-            &copy; 2019 - Willian - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            &copy; 2019 - Willian - <span asp-controller="Home" asp-action="Index" style="color:#CC8D09">Todos os Direitos Reservados</span>
         </div>
     </footer>
 

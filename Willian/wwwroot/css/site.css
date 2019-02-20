@@ -19,12 +19,12 @@ font-family: 'Prata', serif;
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
-    font-size: 16px;
+    font-size: 18px;
     overflow-x: hidden;
 }
 @media (min-width: 768px) {
   html {
-    font-size: 18px;
+    font-size: 20px;
   }
 }
 
@@ -74,16 +74,23 @@ body {
 .w-menu-topo-fixo a:hover { color: #CC8D09 }
 .w-ls-none { list-style: none }
 
+.w-altura-menu{
+    min-height: 120px;
+}
+
 .w-margin-conteudo{
-    margin-top: 76px;
+    margin-top: 80px;
 }
 
 /* Logo site */
-.w-caixa-logo {
-    border: 1px solid #6976CC;
-    width: 100%
-}
+
 .w-logo-site {
-    height: 50px;
+    height: 80px;
+    padding: 5px;
 }
 
+/* Animação Importada */
+.focus-in-contract-bck {
+	-webkit-animation: focus-in-contract-bck 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: focus-in-contract-bck 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}

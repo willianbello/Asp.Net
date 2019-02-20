@@ -1,7 +1,13 @@
 ﻿
 .w-borda-img {
     border: 10px solid #48518C;
+    height:200px;
 }
+
+.w-margin-img{
+    margin-top: 120px;
+}
+
 .w-figura{
     position:relative;
 }
@@ -33,6 +39,8 @@
 #texto3 {
     display: none;
 }
+
+
 
 /*
 Extra small devices (portrait phones, less than 576px)*/
