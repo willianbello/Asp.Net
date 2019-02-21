@@ -1,6 +1,50 @@
 ﻿@{
     ViewData["Title"] = "Sobre";
 }
-<h1>@ViewData["Title"]</h1>
+<link rel="stylesheet" href="~/css/sobre.css"/>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="w-titulo">
+                <h2 class="ml-2 mt-5">@ViewData["Title"]</h2>
+                <p class="ml-2">Principais informações sobre mim</p>
+            </div>
+        </div>
+        
+    </div>
 
-<p>Pagina sobre mim</p>
+    <div class="row">
+        <div class="col-md-4">
+            <img src="~/imagens/wire.png" class="img-fluid w-img-pessoal" />
+        </div>
+        <div class="col-md-6">
+            <h2 class="w-nome">Eu sou Willian Bello e <span class="w-cf-orange-3">Desenvolvedor Web</span></h2>
+            <p class="w-paragrafo">
+                Olá, meu nome é Willian Bello, sou desenvolvedor web muito apaixonado e dedicado eu meu trabalho.
+                Tenho mais ou menos 6 meses de experiência com desenvolvimento HTML5, CSS3, Bootstrap 4, Javascript e jQuery.
+                Adquiri minhas habilidades trabalhando em projetos pessoais e contribuindo em diversos projetos de amigos.
+                Me dedico a aprendizagem e aprimoramento de novas tecnologias buscando desafios a serem superados.
+            </p>
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="w-paragrafo2"><span class="w-categoria">Aniversário: </span>10.12.1990</p>
+                    <p class="w-paragrafo2"><span class="w-categoria">Cidade: </span>Gravataí - RS</p>
+                    <p class="w-paragrafo2"><span class="w-categoria">Escolaridade: </span>Bacharel em Ciência da Computação (em andamento)</p>
+                    <p class="w-paragrafo2"><span class="w-categoria">Telefone: </span>(51) 99456-5618</p>
+                </div>
+
+                <div class="col-md-6">
+                    <p class="w-paragrafo2"><span class="w-categoria">Idade: </span>28 anos</p>
+                    <p class="w-paragrafo2"><span class="w-categoria">Interesses: </span>Musica, Artes Marciais</p>
+                    <p class="w-paragrafo2"><span class="w-categoria">Email: </span>willianbello.s@gmail.com</p>
+                    <p class="w-paragrafo2"><span class="w-categoria">Página Facebook: </span>-------</p>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    
+</div>
+
+

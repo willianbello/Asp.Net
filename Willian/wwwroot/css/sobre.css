@@ -1,0 +1,21 @@
+﻿/* Titulo */
+.w-titulo{
+    border-left: 5px solid rgb(255, 106, 0);
+}
+.w-nome{
+    font-size: 22px;
+}
+.w-paragrafo{
+    font-size: 16px;
+}
+.w-img-pessoal{
+    height: 400px;
+}
+
+.w-categoria{
+    font-weight:bold;
+}
+
+.w-paragrafo2 {
+    font-size: 14px;
+}
