@@ -8,7 +8,7 @@ using Willian.Models;
 
 namespace Willian.Controllers
 {
-    public class HomeController : Controller
+    public class SiteController : Controller
     {
         public IActionResult Index()
         {
@@ -25,7 +25,13 @@ namespace Willian.Controllers
             return View();
         }
 
+        [HttpGet]
         public IActionResult Contato()
+        {
+            return View();
+        }
+        [HttpPost]
+        public IActionResult Contato(EnviarEmail enviarEmail)
         {
             return View();
         }

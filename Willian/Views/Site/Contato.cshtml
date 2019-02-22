@@ -1,0 +1,45 @@
+﻿
+<link rel="stylesheet" href="~/css/sobre.css" />
+@model Willian.Models.EnviarEmail;
+
+@{
+    ViewData["Title"] = "Contato";
+}
+
+<link rel="stylesheet" href="~/css/sobre.css" />
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="w-titulo">
+                <h2 class="ml-2 mt-5">@ViewData["Title"]</h2>
+            </div>
+        </div>
+
+        <div class="col-md-5 ml-2">
+            <form asp-controller="Site" asp-action="Contato" method="post">
+                <div class="form-group">
+                    <div class="form-group row">
+                        <label for="Nome" class="col-form-label">Nome:</label>
+                        <input type="text" class="form-control" asp-for="Nome" aria-describedby="Nome" placeholder="Digite aqui seu Nome...">
+                        <span asp-validation-for="Nome" class="text-danger w-font-erro"></span>
+                    </div>
+                    <div class="form-group row">
+                        <label for="Email" class="col-form-label">Email:</label>
+                        <input type="email" class="form-control" asp-for="Email" aria-describedby="Email" placeholder="Digite aqui seu e-mail...">
+                        <span asp-validation-for="Email" class="text-danger w-font-erro"></span>
+                    </div>
+                    <div class="form-group row">
+                        <label form="Mensagem" class="col-form-label">Mensagem</label>
+                        <input type="text" class="form-control" asp-for="Mensagem" aria-describedby="Mensagem" placeholder="Digite aqui sua Mensagem...">
+                        <span asp-validation-for="Mensagem" class="text-danger w-font-erro"></span>
+                    </div>
+                    <div class="row">
+                        <button type="submit" class="btn btn-warning">Enviar Mensagem</button>
+                    </div>
+                    
+                </div>
+                
+            </form>
+        </div>
+    </div>
+</div>

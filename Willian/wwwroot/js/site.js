@@ -19,22 +19,22 @@ function typeEffect(element, speed) {
 
 $(document).ready(function () {
 
-    var speed = 100;
+    var speed = 70;
     var delay = $('span').text().length * speed + speed;
     setTimeout(function () {
         $('#texto1').show();
         $('#texto1').css('display', 'block');
         typeEffect($('#texto1'), speed);
-    }, 1000);
+    }, 500);
     setTimeout(function () {
         $('#texto2').show();
         $('#texto2').css('display', 'block');
         typeEffect($('#texto2'), speed);
-    }, 2500);
+    }, 1300);
     setTimeout(function () {
         $('#texto3').show();
         $('#texto3').css('display', 'block');
         typeEffect($('#texto3'), speed);
-    }, 3500);
+    }, 2000);
 
 });
